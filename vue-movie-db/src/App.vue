@@ -23,7 +23,7 @@
   }
 }
 body{
-  background-color: #35495E;
+  background-color: #35495E!important;
 }
 a{
   text-decoration: none;
@@ -33,7 +33,7 @@ header{
   align-items: center;
   justify-content: center;
   padding: 10px 16px;
-  background: #2C3D4E;
+  background: #2C3D4E!important;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
 
   h1{

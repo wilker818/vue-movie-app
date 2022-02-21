@@ -1,9 +1,9 @@
 <template>
-  <div class="movie-detail">
-    <h2>{{movie.Title}}</h2>
-    <p>{{ movie.Year }}</p>
+  <div class="movie-detail container">
+    <h2 class="text-center">{{movie.Title}}</h2>
+    <p class="text-center">{{ movie.Year }}</p>
     <img :src="movie.Poster" alt="Movie Poster" class="featured-img" />
-    <p>{{ movie.Plot }}</p>
+    <p class="text-center">{{ movie.Plot }}</p>
   </div>
 </template>
 
@@ -32,6 +32,11 @@ export default {
 <style lang="scss">
 .movie-detail {
   padding: 16px;
+  display: flex!important;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
   h2 {
     color: #FFF;
     font-size: 28px;
@@ -39,9 +44,8 @@ export default {
     margin-bottom: 16px;
   }
   .featured-img {
-    display: block;
-    max-width: 200px;
-    margin-bottom: 16px;
+    display: block;    
+    margin-bottom: 32px;
   }
   p {
     color: #FFF;
