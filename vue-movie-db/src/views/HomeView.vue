@@ -10,8 +10,8 @@
           class="featured-img"
         />
         <div class="detail">
-          <h3>Naruto</h3>
-          <p>Issso é um lorem do Naruto a onde eu tento fazer o possível</p>
+          <h3>Seja bem-vindo ao VueMovies</h3>
+          <p>Aqui você acha de tudo e todos os filmes :D</p>
         </div>
       </router-link>
     </div>
